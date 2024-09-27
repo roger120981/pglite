@@ -1,5 +1,11 @@
 # @electric-sql/pglite
 
+## 0.2.9
+
+### Patch Changes
+
+- a5712a8: Fix a bug where Postgres would hang after a "DROP DATABASE" followed by an unclean shutdown and restart
+
 ## 0.2.8
 
 ### Patch Changes
